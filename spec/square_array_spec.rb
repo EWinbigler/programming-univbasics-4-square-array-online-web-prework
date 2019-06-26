@@ -7,7 +7,7 @@ describe '#square_array' do
     expect(numbers).to receive(:each)
     expect(numbers).to receive(:collect)
     expect(numbers).to receive(:map)
-    expect(numbers).toreceive(:inject)
+    expect(numbers).to receive(:inject)
     square_array(numbers)
   end
   
